@@ -6,9 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\OrderDetail.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.8" />
     <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\OrderDetail.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\OrderDetail.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\OrderDetail.razor" />
   </ItemGroup>
 
 </Project>
